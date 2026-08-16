@@ -4,12 +4,23 @@
 
 | 영역 | 기준 파일 | 의미 |
 |---|---|---|
-| 전체 특성 모델링 | `블루리본_최최종_마참내_v1.1.1.csv` | 1,428행 × 67열, 중복 매장 12행 제거 |
-| 축소 특성 모델링 | `블루리본_최최종_마참내_v1.2.1.csv` | 1,428행 × 22열, 재평가 기준 |
+| 전체 특성 모델링 | `blueribbon_final_full_v1.1.1.csv` | 1,428행 × 67열, 중복 매장 12행 제거 |
+| 축소 특성 모델링 | `blueribbon_final_reduced_v1.2.1.csv` | 1,428행 × 22열, 재평가 기준 |
 | 텍스트 특성 | `KoELECTRA_X_feature_v2.3_weighted.csv` | v2.2의 43열에 가중 점수 13열 추가 |
 | 리뷰 결합본 | `reviews_*_combined_v1.0.0.csv` | 8개 그룹, 281,763행 |
 
 `v1.1.1`과 `v1.2.1`은 같은 1,428개 매장 키를 사용하며 공통 22열 값이 같다. 발표 결과를 만든 1,440행 `v1.1`·`v1.2`와 중복 제거 후 재학습 기준을 섞지 않는다.
+
+### 파일명 변경 기록
+
+| 기존 이름 | 현재 이름 |
+|---|---|
+| `블루리본_최최종_마참내_v1.1.csv` | `blueribbon_final_full_presentation_v1.1.0.csv` |
+| `블루리본_최최종_마참내_v1.1.1.csv` | `blueribbon_final_full_v1.1.1.csv` |
+| `블루리본_최최종_마참내_v1.2.csv` | `blueribbon_final_reduced_presentation_v1.2.0.csv` |
+| `블루리본_최최종_마참내_v1.2.1.csv` | `blueribbon_final_reduced_v1.2.1.csv` |
+
+이름만 변경했으며 네 파일의 SHA-256은 변경 전과 동일하다. Google Drive의 기존 이름은 원천 계보로 manifest에 유지한다.
 
 ## 확인한 데이터 범위
 

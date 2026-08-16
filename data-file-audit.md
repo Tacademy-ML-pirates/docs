@@ -10,7 +10,7 @@
 - Drive에만 있는 8개는 최신 원천 데이터라기보다 테스트용 소규모 결합본, 사진 분석 중간 산출물, 현 최종본 이전 결합본이다. 삭제하지 말고 `archive/legacy`에 원본 보관하는 편이 안전하다.
 - 현재 `*_merged` 리뷰 파일은 `최신순 + 추천순`의 완전한 합집합이 아니다. 테스트 기준 데이터로 사용하기 전에 원천 두 파일에서 다시 만들어야 한다.
 - 확장자가 `.xls`인 5개 파일은 실제 Excel 파일이 아니라 UTF-8 BOM이 붙은 CSV 텍스트다.
-- 최신 기준 후보는 `KoELECTRA_X_feature_v2.3_weighted.csv`, 전체 특성 기준은 `블루리본_최최종_마참내_v1.1.1.csv`, 축소 특성 기준은 `블루리본_최최종_마참내_v1.2.1.csv`다.
+- 최신 기준 후보는 `KoELECTRA_X_feature_v2.3_weighted.csv`, 전체 특성 기준은 `blueribbon_final_full_v1.1.1.csv`, 축소 특성 기준은 `blueribbon_final_reduced_v1.2.1.csv`다.
 
 ## 로컬 인벤토리
 
@@ -109,17 +109,19 @@ CSV 변환 전에 이 셀을 문자열로 복원해야 한다. 그렇지 않으�
 
 | 현재 파일 | 행 | 열 | 판정 |
 |---|---:|---:|---|
-| `블루리본_최최종_마참내_v1.1.csv` | 1,440 | 67 | 전체 특성, 중복 포함 |
-| `블루리본_최최종_마참내_v1.1.1.csv` | 1,428 | 67 | 전체 특성, 중복 12행 제거 |
-| `블루리본_최최종_마참내_v1.2.csv` | 1,440 | 22 | 축소 특성, 중복 포함 |
-| `블루리본_최최종_마참내_v1.2.1.csv` | 1,428 | 22 | 축소 특성, 중복 12행 제거 |
+| `blueribbon_final_full_presentation_v1.1.0.csv` | 1,440 | 67 | 전체 특성, 중복 포함 |
+| `blueribbon_final_full_v1.1.1.csv` | 1,428 | 67 | 전체 특성, 중복 12행 제거 |
+| `blueribbon_final_reduced_presentation_v1.2.0.csv` | 1,440 | 22 | 축소 특성, 중복 포함 |
+| `blueribbon_final_reduced_v1.2.1.csv` | 1,428 | 22 | 축소 특성, 중복 12행 제거 |
 
 `v1.1.1`과 `v1.2.1`은 같은 1,428개 매장 키를 가지며, 공통 22개 열의 값도 모두 같다. 따라서 두 파일을 각각 전체 특성 기준본과 축소 특성 기준본으로 삼을 수 있다.
 
-권장 이름:
+현재 적용한 이름:
 
-- `restaurant_features_full_v1.1.1.csv`
-- `restaurant_features_reduced_v1.2.1.csv`
+- `blueribbon_final_full_presentation_v1.1.0.csv`
+- `blueribbon_final_full_v1.1.1.csv`
+- `blueribbon_final_reduced_presentation_v1.2.0.csv`
+- `blueribbon_final_reduced_v1.2.1.csv`
 
 ### KoELECTRA 특성 데이터
 
