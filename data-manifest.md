@@ -42,10 +42,10 @@
 
 | 역할 | 현재 파일 |
 |---|---|
-| 재학습 기준 데이터 | `data/블루리본_최최종_마참내_v1.2.1.csv` |
-| 전체 특성 보존 기준 | `data/블루리본_최최종_마참내_v1.1.1.csv` |
+| 재학습 기준 데이터 | `data/blueribbon_final_reduced_v1.2.1.csv` |
+| 전체 특성 보존 기준 | `data/blueribbon_final_full_v1.1.1.csv` |
 | KoELECTRA 최신 특성 후보 | `data/KoELECTRA_X_feature_v2.3_weighted.csv` |
-| 발표 수치 재현용 | `data/블루리본_최최종_마참내_v1.2.csv` |
+| 발표 수치 재현용 | `data/blueribbon_final_reduced_presentation_v1.2.0.csv` |
 
 재학습 기준 1,428개와 발표 재현 기준 1,440개는 섞지 않는다.
 

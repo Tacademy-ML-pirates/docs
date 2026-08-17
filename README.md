@@ -24,8 +24,8 @@
 
 | 영역 | 기준 |
 |---|---|
-| 전체 특성 모델링 데이터 | `블루리본_최최종_마참내_v1.1.1.csv` — 1,428행, 67열 |
-| 축소 특성 모델링 데이터 | `블루리본_최최종_마참내_v1.2.1.csv` — 1,428행, 22열 |
+| 전체 특성 모델링 데이터 | `blueribbon_final_full_v1.1.1.csv` — 1,428행, 67열 |
+| 축소 특성 모델링 데이터 | `blueribbon_final_reduced_v1.2.1.csv` — 1,428행, 22열 |
 | 텍스트 특성 | `KoELECTRA_X_feature_v2.3_weighted.csv` |
 | 리뷰 결합본 | `reviews_*_combined_v1.0.0.csv` 8개, 총 281,763행 |
 | 모델 재평가 | LightGBM·XGBoost, validation 임계값, test 286건 |
